@@ -1,0 +1,145 @@
+/* pages/c3_hgxg/c3_hgxg.wxss */
+
+.title-bar {
+  margin-bottom: 10rpx;
+}
+
+.title-bar image {
+  height: 178rpx;
+  width: 720rpx;
+  margin-left: 15rpx;
+}
+
+
+
+.div-img {
+  margin-top: 50rpx;
+  margin-bottom: 10rpx;
+}
+
+.div-img-first {
+  margin-top: 20rpx;
+}
+
+.div-img image {
+  width: 750rpx;
+  height: 88rpx;
+}
+
+.scroll-wrap {
+  width: 100%;
+  /* width: 745rpx; */
+  /* margin-left: 5rpx; */
+  /* margin-right: 25rpx; */
+  /* background-color: yellow; */
+  margin-top: 10rpx;
+}
+
+.xiangqing {
+  display: inline-block;
+  vertical-align: middle;
+  width: 200rpx;
+  height: 270rpx;
+  /* background-color: #FFF59D; */
+  /* box-shadow: -10rpx 10rpx 0rpx #FFEB3B; */
+  /* border: 5rpx solid #000; */
+  margin-left: 10rpx;
+  margin-top: 0;
+  text-align: center;
+  /* background-color: bisque; */
+}
+
+.xiangqing-nochar {
+  height: 200rpx;
+}
+
+.xiangqing:first-child {
+  margin-left: 25rpx;
+}
+
+.xiangqing:last-child {
+  margin-right: 25rpx;
+}
+
+.xq-con {
+  width: 200rpx;
+  height: 270rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.xq-con-nochar {
+  height: 200rpx;
+}
+
+.xq-img {
+  width: 200rpx;
+  height: 200rpx;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 15rpx;
+  /* border: 5rpx solid #000; */
+  /* border-radius: 15rpx; */
+}
+
+
+.xq-img image {
+  width: 200rpx;
+  height: 200rpx;
+  /* border-radius: 15rpx; */
+  
+}
+
+.xq-char {
+  height: 70rpx;
+  font-size: 32rpx;
+  line-height: 70rpx;
+  font-weight: 500;
+  color: #000;
+}
+
+.bchar {
+  width: 750rpx;
+  height: 70rpx;
+  text-align: center;
+  font-size: 32rpx;
+  line-height: 70rpx;
+  font-weight: 500;
+  color: #000;
+}
+
+.oneitem {
+  width: 200rpx;
+  height: 200rpx;
+  /* margin-left: 20rpx; */
+  /* background-color: #FFF176; */
+  /* margin-bottom: 30rpx; */
+  /* border-radius: 20rpx; */
+  /* box-shadow: 0rpx 0rpx 23rpx rgb(194, 194, 194); */
+  overflow: hidden;
+  /* box-sizing: border-box; */
+  /* border: 5rpx solid #000; */
+}
+
+swiper{
+  width: 200rpx;
+  height: 200rpx;
+  /* background-color: #BAD17D; */
+}
+
+swiper image {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.footer {
+  text-align: center;
+  height: 40rpx;
+  margin-top: 60rpx;
+  margin-bottom: 60rpx;
+  font-style: italic;
+  font-size: 26rpx;
+  color: rgb(87, 87, 87);
+}

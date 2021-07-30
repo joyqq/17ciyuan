@@ -1,0 +1,118 @@
+<view class="big-body">
+  <!-- <view class="a"></view> -->
+  <view class="title-bar">
+    <image src="{{img0}}"></image>
+  </view>
+
+  <view class="one-item">
+
+    <image src="{{img1}}" style="width: 750rpx; height: 100rpx"></image>
+
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        <view class="xiangqing" wx:for="{{cafe_1}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="{{i.disp}}" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_cafe_1"></image>
+            </view>
+          <view class="xq-char" style="font-size: {{i.size}}; line-height: {{i.height}}"><text>{{i.name}}</text></view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        <view class="xiangqing" wx:for="{{cafe_2}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="{{i.disp}}" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_cafe_2"></image>
+            </view>
+          <view class="xq-char" style="font-size: {{i.size}}; line-height: {{i.height}}"><text>{{i.name}}</text></view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+
+
+  <view class="one-item">
+    <image src="{{img2}}" style="width: 750rpx; height: 100rpx"></image>
+    
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        <view class="xiangqing" wx:for="{{goods}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="{{i.disp}}" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_goods"></image>
+            </view>
+          <view class="xq-char" style="font-size: {{i.size}}; line-height: {{i.height}}"><text>{{i.name}}</text></view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+
+  </view>
+
+
+  <view class="one-item">
+    <image src="{{img3}}" style="width: 750rpx; height: 100rpx"></image>
+    
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        <view class="xiangqing" wx:for="{{kuji}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="{{i.disp}}" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_kuji"></image>
+            </view>
+          <view class="xq-char" style="font-size: {{i.size}}; line-height: {{i.height}}"><text>{{i.name}}</text></view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+
+  </view>
+
+
+  <view class="one-item">
+    <image src="{{img4}}" style="width: 750rpx; height: 100rpx"></image>
+    
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        <view class="xiangqing" wx:for="{{museum}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="{{i.disp}}" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_museum"></image>
+            </view>
+          <view class="xq-char" style="font-size: {{i.size}}">{{i.name}}</view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+
+  </view>
+
+
+  <view class="one-item">
+    <image src="{{img5}}" style="width: 750rpx; height: 100rpx"></image>
+    
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        <view class="xiangqing" wx:for="{{popup}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="{{i.disp}}" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_popup"></image>
+            </view>
+          <view class="xq-char" style="font-size: {{i.size}}">{{i.name}}</view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+
+  </view>
+
+
+</view>
+
+<view class="footer">
+  <text>- @OreoIceCream_17资源整理博 -</text>
+</view>

@@ -1,0 +1,283 @@
+page{
+  width: 100%;
+  /* background-color: rgb(236, 236, 236); */
+}
+ 
+.tab2 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.divide {
+  width: 750rpx;
+  height: 55rpx;
+  text-align: center;
+  color: #aaa;
+  font-size: 24rpx;
+  margin-top: 30rpx;
+  /* margin-top: 20rpx; */
+  /* background-color: #f7cac9; */
+}
+
+
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 130rpx;
+}
+
+.item {
+  margin-left: 50rpx;
+  margin-bottom: 50rpx;
+  background-color: #91a8d0;
+  /* box-shadow: 5rpx 5rpx 12rpx rgb(184, 183, 183); */
+  height: 390rpx;
+  width: 300rpx;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-name {
+  height: 90rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.big {
+  font-size: 30rpx;
+}
+
+.small {
+  font-size: 25rpx;
+}
+
+
+.item2 {
+  background-color: #f7cac9;
+  color: #7B6564;
+}
+
+.item3 {
+  background-color: #BCBDC1;
+  color: #5E5E60;
+}
+
+.item4 {
+  background-color: #BAD17D;
+  color: #ffffff;
+}
+
+.img-container {
+  width: 300rpx;
+  height: 300rpx;
+  overflow: hidden;
+}
+
+.item image {
+  width: 280rpx;
+  height: 280rpx;
+  margin-top: 10rpx;
+}
+
+.footer {
+  text-align: center;
+  height: 40rpx;
+  margin-top: 60rpx;
+  margin-bottom: 60rpx;
+  font-style: italic;
+  font-size: 26rpx;
+  color: rgb(87, 87, 87);
+}
+
+
+.fengmian, .xiangqing {
+  display: inline-block;
+  vertical-align: middle;
+  width: 210rpx;
+  height: 210rpx;
+  background-color: rgb(255, 255, 255);
+  margin-left: 20rpx;
+  /* margin-right: 20rpx; */
+  margin-top: 0;
+  box-shadow: 10rpx 0 10rpx #ccc;
+
+
+}
+.fengmian {
+  margin-left: 40rpx;
+}
+
+.fengmian image{
+  width: 210rpx;
+  height: 210rpx;
+}
+
+.xq-con {
+  width: 210rpx;
+  height: 210rpx;
+  /* background-color: rgb(184, 184, 184); */
+  display: flex;
+  flex-direction: column;
+}
+
+.xq-img {
+  width: 210rpx;
+  height: 160rpx;
+  overflow: hidden;
+  /* background-color: purple; */
+  /* margin-left: 10rpx; */
+  /* margin-top: 10rpx; */
+}
+
+.xq-img image {
+  width: 100%;
+}
+
+.xq-char {
+  height: 50rpx;
+  font-size: 24rpx;
+  line-height: 60rpx;
+  font-weight: 500;
+  color: #91a8d0;
+}
+.aitems {
+  display: flex;
+  align-items: flex-start;
+  /* background-color: cadetblue; */
+  width: 210rpx;
+  height: 210rpx;
+}
+
+.last-sv {
+  /* padding-left: 20rpx; */
+  margin-right: 40rpx;
+}
+
+.first-sv {
+  margin-left: 40rpx;
+}
+
+.tab2 .xq-char{
+  color: #91a8d0;
+}
+
+.heng {
+  height: 100%;
+}
+
+scroll-view:first-child {
+  margin-left: 40rpx;
+}
+
+scroll-view:last-child {
+  margin-right: 40rpx;
+}
+
+.onewrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 20rpx;
+}
+
+.oneitem {
+  width: 320rpx;
+  height: 320rpx;
+  margin-left: 20rpx;
+  background-color: #FFF176;
+  margin-bottom: 30rpx;
+  /* border-radius: 20rpx; */
+  box-shadow: 0rpx 0rpx 23rpx rgb(194, 194, 194);
+  overflow: hidden;
+  /* box-sizing: border-box; */
+  border: 5rpx solid #000;
+}
+
+.onepic-wrap {
+  width: 330rpx;
+  height: 240rpx;
+  overflow: hidden;
+}
+
+swiper{
+  width: 320rpx;
+  height: 240rpx;
+  /* background-color: #BAD17D; */
+}
+
+
+.onepic{
+  width: 320rpx;
+  height: 240rpx;
+  overflow: hidden;
+}
+
+swiper image,
+.onepic image{
+  width: 100%;
+  height: 100%;
+}
+
+
+.sname {
+  height: 80rpx;
+  line-height: 68rpx;
+  /* color: rgb(75, 75, 75); */
+  color: #000;
+  font-weight: bold;
+  font-size: 30rpx;
+  border-top: 5rpx solid #000;
+}
+
+.img-divide {
+  width: 600rpx;
+  height: 80rpx;
+  margin: 30rpx 75rpx;
+  margin-top: 40rpx;
+  /* margin-top: 20; */
+}
+
+.img-dividel {
+  width: 750rpx;
+  height: 80rpx;
+  margin-bottom: 30rpx;
+  margin-top: 40rpx;
+}
+
+.img-divide image,
+.img-dividel image {
+  width: 100%;
+  height: 100%;
+}
+
+.img-divide2 {
+  width: 750rpx;
+  height: 100rpx;
+  /* margin: 30rpx 75rpx; */
+  margin-top: 60rpx;
+  margin-bottom: 30rpx;
+  /* margin-left: 75rpx; */
+}
+
+.img-divide2 image {
+  width: 100%;
+  height: 100%;
+}
+
+.title-bar {
+  margin-bottom: 10rpx;
+}
+
+.title-bar image {
+  height: 178rpx;
+  width: 720rpx;
+  margin-left: 15rpx;
+}

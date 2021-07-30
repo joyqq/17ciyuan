@@ -1,0 +1,84 @@
+<view class="header">
+  <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcbby4upg76R2gW*VHlLFa5HR0.IEEPjA7WhC8r9KBW6PDABwsuWw50STgUV6o276RtlUqzzw.0nKHsa1Cx1h6pg!/b&bo=3AXMAQAAAAABFyQ!&rf=viewer_4"></image>
+</view>
+<view class='imagebox'>
+    <!-- <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqtybhsi61j30u04bkkjl.jpg" mode="widthFix">
+    </image> -->
+</view>
+<view class="big-con" style="height: {{bcheight}}">
+
+
+
+<!-- <view class="item1 item0 zhanwei"></view> -->
+
+<view class="item1" style="background-color: #fff; color: #777" bindtap="goto_c3_zjpz">
+  <view class="item-l">
+    <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcREwLTdjwSDtUMywer2ZdG.kT1tQO3Hrlm*L.egqrZx1fV4ST3VCTs9RuSYJ7plA86m.oofCq7yaKt6DAJIW3o4!/b&bo=WAKQAQAAAAADN9k!&rf=viewer_4"></image>
+  </view>
+  <view class="item-r">
+    <text class="name">专辑配置\n</text>
+  </view>
+</view>
+
+<view class="item1" style="background-color: #f0ebe6; color: #78706c" bindtap="goto_c3_con">
+  <view class="item-l">
+    <image src="http://photogz.photo.store.qq.com/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcd1vbwMuzSAqJKefVRPrF8fgk6VEg1ZdS3Q1yLeikUAFEkcbWAvptrDQv4g3*VKJIuS4c.Idoi5SoXkZSCOyPAo!/b&bo=WAKQAQAAAAADN9k!&rf=viewer_4"></image>
+  </view>
+  <view class="item-r">
+    <text class="name">演唱会相关\n</text>
+  </view>
+</view>
+
+<view class="item1" style="background-color: #f9f0fc; color: #725780" bindtap="goto_c3_hgxg">
+  <view class="item-l">
+    <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcd1vbwMuzSAqJKefVRPrF8efw2bTdL.dVrQTfbMxzn*0dcD8TUg1Eyjj6Ywytq2RP.iWvda4SNwNyIQQupntSXs!/b&bo=WAKQAQAAAAADN9k!&rf=viewer_4"></image>
+  </view>
+  <view class="item-r">
+    <text class="name">回归Teaser</text>
+  </view>
+</view>
+
+<view class="item1" style="background-color: #000; color: #fff" bindtap="goto_c3_hykld">
+  <view class="item-l">
+    <image src="http://photogz.photo.store.qq.com/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcd1vbwMuzSAqJKefVRPrF8cS8alpmMcBuJZgbBle.dZIsa.V3a*gA6BhUMk6DH43j42VDIiOIgwNt7tl1e4xdek!/b&bo=WAKQAQAAAAADF*k!&rf=viewer_4"></image>
+  </view>
+  <view class="item-r">
+    <text class="name">会员&克拉岛</text>
+  </view>
+</view>
+
+<view class="item1" style="background-color: #aea5a6; color: #EAE8E8" bindtap="goto_c3_rbcz">
+  <view class="item-l">
+    <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcVsTQG3CfGEeUuaDNplkuPx0Agk4c.8suW2ULtTeERzINnwuTTeudPxh4On7vdTTLcI*9nxbWaoeT*qodVOZyhQ!/b&bo=WAKQAQAAAAADN9k!&rf=viewer_4"></image>
+  </view>
+  <view class="item-r">
+    <text class="name">日本场周</text>
+  </view>
+</view>
+
+<view class="item1" style="background-color: #fff; color: #000" bindtap="goto_c3_rbzb">
+  <view class="item-l">
+    <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcQHJoa*fGk8kDqWZb4IMbtbDCyy0Y21qLes*LM7rgaMKGeLN0EanqhSJQX.WEKwARzoZ6DHhoN0MlLZNFtZelpM!/b&bo=WAKQAQAAAAADF*k!&rf=viewer_4"></image>
+  </view>
+  <view class="item-r">
+    <text class="name">日本周边贩卖</text>
+  </view>
+</view>
+
+<view class="item1" style="background-color: #cfe4e9; color: #33393A" bindtap="goto_c3_else">
+  <view class="item-l">
+    <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcZPOy0QUALQdn9JCOLO3Xr3t3W4hzmHrQ.syNlMSC73eqNdzIoj74w7VH1N31yqLBCQMEJBLYL4MQQ5RDHhaZtY!/b&bo=WAKQAQAAAAADJ8k!&rf=viewer_4"></image>
+  </view>
+  <view class="item-r">
+    <text class="name">其他配置图</text>
+  </view>
+</view>
+
+<view class="footer">
+    <text>Presented By 奥冰</text>
+    <text>\nDeveloped By 力力酱yo</text>
+    <text class="footerc">\n版本号：2.1.13</text>
+    <text>\n更新日期：2021.07.29</text>
+</view>
+
+</view>

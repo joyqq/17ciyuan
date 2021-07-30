@@ -1,0 +1,177 @@
+<view class="header">
+  <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcZd7a7LIXMAYNuKrM7gU59ITJeeGdhyddMOUn7RQkmSOcE4dagxU6II.ZZbXTJ65U4Kz6K1MLu6bzLwCS8zWbzw!/b&bo=3AXMAQAAAAADJxY!&rf=viewer_4"></image>
+</view>
+<view class='imagebox'>
+    <!-- <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqtybhsi61j30u04bkkjl.jpg" mode="widthFix">
+    </image> -->
+</view>
+<view class="big-con" style="height: {{bcheight}}">
+
+
+
+<!-- <view class="item1 item0 zhanwei"></view> -->
+
+<view class="item1" style="background-color: #d3c2b2; color: #34302C" bindtap="goto_cardof00">
+  <view class="item-l">
+    <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcdZHdE642cRHAW9qGXS4V*ZIz1O1FmyanBmgDfDq8U6oR9RS4BOVQcKM3nUjBdEyFTxx6uMzb1bVKT5ZlUTDP6U!/b&bo=WAKQAQAAAAADN9k!&rf=viewer_4"></image>
+  </view>
+  <view class="item-r">
+    <text class="name">SEVENTEEN\n</text>
+    <text>2015.05.26\n</text>
+    <!-- <text>PERFORMANCE UNIT\n</text> -->
+  </view>
+</view>
+
+
+<view class="item1" style="background-color: #B3A38C; color: #ECE8E2" bindtap="goto_cardof01">
+  <view class="item-l">
+    <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcdZHdE642cRHAW9qGXS4V*alOdJT5aHKsVAaAzTHpTEvLI3do5nTqldbBnqS4me8m3mYXgY3Q74WkLJmpJH8wt0!/b&bo=WAKQAQAAAAADN9k!&rf=viewer_4"></image>
+  </view>
+  <view class="item-r" id="svt01">
+    <text class="name">崔胜哲 S.COUPS\n</text>
+    <text>1995.08.08\n</text>
+    <text>HIP-HOP UNIT\n</text>
+  </view>
+</view>
+
+<view class="item1" style="background-color: #d7d6d1; color: #353534" bindtap="goto_cardof02">
+  <view class="item-l">
+    <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcSwJ8o1Iknfwtr9WTyPO7C0Qn0En3KsX9C4Sk.HYeaXXHm298n6p3cHPGC.8bFqXA7RS*Vy0PG6wLwnRII420qA!/b&bo=WAKQAQAAAAADN9k!&rf=viewer_4"></image>
+  </view>
+  <view class="item-r" id="svt02">
+    <text class="name">尹净汉 JEONGHAN\n</text>
+    <text>1995.10.04\n</text>
+    <text>VOCAL UNIT\n</text>
+  </view>
+</view>
+
+<view class="item1" style="background-color: #d6d7d2; color: #353534" bindtap="goto_cardof03">
+  <view class="item-l">
+    <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcSwJ8o1Iknfwtr9WTyPO7C2zO7zWh6W7e2FHDYSHzwlhPSBHpsOD9w5Bz2283SvaRvWs3AKiBbtOedbdHqjlwSM!/b&bo=WAKQAQAAAAADN9k!&rf=viewer_4"></image>
+  </view>
+  <view class="item-r" id="svt03">
+    <text class="name">洪知秀 JOSHUA\n</text>
+    <text>1995.12.30\n</text>
+    <text>VOCAL UNIT\n</text>
+  </view>
+</view>
+
+<view class="item1" style="background-color: #ad824f; color: #EADFD3" bindtap="goto_cardof04">
+  <view class="item-l">
+    <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcSwJ8o1Iknfwtr9WTyPO7C1thFiSvGSPkMHKL9mM42DGNtB5mKPWrf*1NRe.UF50I4ke3UCHOYRQqvt*3xEBBIQ!/b&bo=WAKQAQAAAAADN9k!&rf=viewer_4"></image>
+  </view>
+  <view class="item-r" id="svt04">
+    <text class="name">文俊辉 JUN\n</text>
+    <text>1996.06.10\n</text>
+    <text>PERFORMANCE UNIT\n</text>
+  </view>
+</view>
+
+<view class="item1" style="background-color: #ccc4c1; color: #333130" bindtap="goto_cardof05">
+  <view class="item-l">
+    <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcSwJ8o1Iknfwtr9WTyPO7C3ohCTy6UkJBAwiToLQtYmjAEf6UuKWBOfm9JPL0t.IBlKN9XyVWaeAhQZ6vib2oIU!/b&bo=WAKQAQAAAAADN9k!&rf=viewer_4"></image>
+  </view>
+  <view class="item-r" id="svt05">
+    <text class="name">权顺荣 HOSHI\n</text>
+    <text>1996.06.15\n</text>
+    <text>PERFORMANCE UNIT\n</text>
+  </view>
+</view>
+
+<view class="item1" style="background-color: #9e683a; color: #E6D9CD" bindtap="goto_cardof06">
+  <view class="item-l">
+    <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcUVA1.tS*92iL49nJtJ1Au77ONDiltfJX*.sFxjX.DVni0JkqziaAfR7VBvs.fm.XYIcpovyii3Zs.ksWhFe*9Y!/b&bo=WAKQAQAAAAADN9k!&rf=viewer_4"></image>
+  </view>
+  <view class="item-r" id="svt06">
+    <text class="name">全圆佑 WONWOO\n</text>
+    <text>1996.07.17\n</text>
+    <text>HIP-HOP UNIT\n</text>
+  </view>
+</view>
+
+<view class="item1" style="background-color: #cbc3c0; color: #323030" bindtap="goto_cardof07">
+  <view class="item-l">
+    <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcUVA1.tS*92iL49nJtJ1Au5fBaUrgoDx3McXg8zWfFk3kDEfdhJ4Jq6enA43N2TAfRC3DX3cWicp6GQK1HclNqs!/b&bo=WAKQAQAAAAADN9k!&rf=viewer_4"></image>
+  </view>
+  <view class="item-r" id="svt07">
+    <text class="name">李知勋 WOOZI\n</text>
+    <text>1996.11.22\n</text>
+    <text>VOCAL UNIT\n</text>
+  </view>
+</view>
+
+<view class="item1" style="background-color: #c7c5b9; color: #31312E" bindtap="goto_cardof08">
+  <view class="item-l">
+    <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcUVA1.tS*92iL49nJtJ1Au7.U4k6PfeLQmhCqIZ.GopMI4GoNffGleDGukoYL2Jwb6gsMIe47pPlm*jzhss.cqE!/b&bo=WAKQAQAAAAADN9k!&rf=viewer_4"></image>
+  </view>
+  <view class="item-r" id="svt08">
+    <text class="name">徐明浩 THE8\n</text>
+    <text>1997.11.07\n</text>
+    <text>PERFORMANCE UNIT\n</text>
+  </view>
+</view>
+
+<view class="item1" style="background-color: #3f3b2f; color: #CFCECB" bindtap="goto_cardof09">
+  <view class="item-l">
+    <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcUVA1.tS*92iL49nJtJ1Au7jYTsrLsHAFBxdWYT9pb4aWPKsBrWXD0pc.Neg7PF5Sf*gdcPlt4vYaTFtlj9.IC4!/b&bo=WAKQAQAAAAADN9k!&rf=viewer_4"></image>
+  </view>
+  <view class="item-r" id="svt09">
+    <text class="name">金珉奎 MINGYU\n</text>
+    <text>1997.04.06\n</text>
+    <text>HIP-HOP UNIT\n</text>
+  </view>
+</view>
+
+<view class="item1" style="background-color: #bdb9ae; color: #2F2E2B" bindtap="goto_cardof10">
+  <view class="item-l">
+    <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcYbJjz7kqOLcebDOK4QkZFIlbv3LMHMkLGWzY1SsHT55DKkdociqbwjrYw1Iezfpd.xwjsriawsENXnaStQMttM!/b&bo=WAKQAQAAAAADN9k!&rf=viewer_4"></image>
+  </view>
+  <view class="item-r" id="svt10">
+    <text class="name">李硕珉 DK\n</text>
+    <text>1997.02.18\n</text>
+    <text>VOCAL UNIT\n</text>
+  </view>
+</view>
+
+<view class="item1" style="background-color: #bfbfb7; color: #2F2F2D" bindtap="goto_cardof11">
+  <view class="item-l">
+    <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcYbJjz7kqOLcebDOK4QkZFKuuUQQ4vJIj1MGHTpZAA1OFvn2DsZxHqa*Lj..Ge1*LaBFD6jrVVTMpMVhEMlzoao!/b&bo=WAKQAQAAAAADN9k!&rf=viewer_4"></image>
+  </view>
+  <view class="item-r" id="svt11">
+    <text class="name">夫胜宽 SEUNGKWAN\n</text>
+    <text>1998.01.16\n</text>
+    <text>VOCAL UNIT\n</text>
+  </view>
+</view>
+
+<view class="item1" style="background-color: #d2d3ce; color: #343433" bindtap="goto_cardof12">
+  <view class="item-l">
+    <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcYbJjz7kqOLcebDOK4QkZFJuDgBwWQFH270i3ho5K0Mqwx1Q63Sno*.gNDMyuP6OBjWGyhaP.xlb.WTNcS4FOGI!/b&bo=WAKQAQAAAAADN9k!&rf=viewer_4"></image>
+  </view>
+  <view class="item-r" id="svt12">
+    <text class="name">崔瀚率 VERNON\n</text>
+    <text>1998.02.18\n</text>
+    <text>HIP-HOP UNIT\n</text>
+  </view>
+</view>
+
+<view class="item1" style="background-color: #d4d5cf; color: #353533" bindtap="goto_cardof13">
+  <view class="item-l">
+    <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcYbJjz7kqOLcebDOK4QkZFITd9qWtwH*hvKbzJ2J779bQRuNVxHKZu1yLwQFvlYJaQEPq6Y1JoKDzX2fyXJ6UD8!/b&bo=WAKQAQAAAAADN9k!&rf=viewer_4"></image>
+  </view>
+  <view class="item-r" id="svt13">
+    <text class="name">李灿 DINO\n</text>
+    <text>1999.02.11\n</text>
+    <text>PERFORMANCE UNIT\n</text>
+  </view>
+</view>
+
+
+<view class="footer">
+    <text>Presented By 奥冰</text>
+    <text>\nDeveloped By 力力酱yo</text>
+    <text class="footerc">\n版本号：2.1.13</text>
+    <text>\n更新日期：2021.07.29</text>
+</view>
+
+</view>

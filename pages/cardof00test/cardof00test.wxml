@@ -1,0 +1,529 @@
+<view class='title'>
+  <view class='titleSel1' bindtap='titleClick' data-idx='0'>
+    <text>韩专配置</text>
+    <hr class="{{0 == currentIndex ? 'headerLineSel1' : 'headerLineUnsel'}}" />
+  </view>
+    
+  <view class='titleSel2' bindtap='titleClick' data-idx='1'>
+    <text>日专配置</text>
+    <hr class="{{1 == currentIndex ? 'headerLineSel2' : 'headerLineUnsel'}} " />
+  </view>
+
+  <view class='titleSel3' bindtap='titleClick' data-idx='2'>
+    <text>随机卡</text>
+    <hr class="{{2 == currentIndex ? 'headerLineSel3' : 'headerLineUnsel'}} " />
+  </view>
+ 
+  <view class='titleSel4' bindtap='titleClick' data-idx='3'>
+    <text>其他配置</text>
+    <hr class="{{3 == currentIndex ? 'headerLineSel4' : 'headerLineUnsel'}} " />
+  </view>
+</view>
+ 
+<!--内容布局-->
+<view class="tabs">
+  
+  <view class="tab1" wx:if="{{currentIndex==0}}">
+    
+    <view class="divide firstitem">- 迷你二辑《BOYS BE》 -</view>
+    <view class="aitems">
+      <view class="fengmian">
+        <image class="fm-img" src='{{mn2fm}}' data-src='{{mn2fm}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing">
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{mn2xk}}' data-src='{{mn2xk}}' bindtap="previewImage"></image>
+          </view>
+        <view class="xq-char">专辑小卡</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="divide">- 正规一辑《Love & Letter》 -</view>
+    <view class="aitems">
+      <view class="fengmian">
+        <image class="fm-img" src='{{zg1fm}}' data-src='{{zg1fm}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing">
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{zg1sq}}' data-src='{{zg1sq}}' bindtap="previewImage"></image>
+          </view>
+        <view class="xq-char">书签</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="divide">- 正规改版一辑《Love & Letter (改版专辑)》 -</view>
+    <view class="aitems">
+      <view class="fengmian">
+        <image class="fm-img" src='{{zg1hxfm}}' data-src='{{zg1hxfm}}' bindtap="previewImage"></image>
+      </view>
+
+      <view class="xiangqing" wx:for="{{zg1hx}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_zg1hx"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+      
+    </view>
+
+    <view class="divide">- 迷你三辑《Going Seventeen》 -</view>
+    <view class="aitems">
+      <view class="fengmian">
+        <image class="fm-img" src='{{mn3fm}}' data-src='{{mn3fm}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing">
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{mn3xk}}' data-src='{{mn3xk}}' bindtap="previewImage"></image>
+          </view>
+        <view class="xq-char">专辑小卡</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="divide">- 迷你四辑《Al1》 -</view>
+    <view class="aitems">
+      <view class="fengmian">
+        <image class="fm-img" src='{{mn4fm}}' data-src='{{mn4fm}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing">
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{mn4xk}}' data-src='{{mn4xk}}' bindtap="previewImage"></image>
+          </view>
+        <view class="xq-char">专辑小卡</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="divide">- 正规二辑《TEEN, AGE》 -</view>
+    <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+      <view class="fengmian">
+        <image class="fm-img" src='{{zg2fm}}' data-src='{{zg2fm}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing" wx:for="{{zg2}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con" style="margin-right: 40rpx;">
+            <view class="xq-img">
+              <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_zg2"></image>
+            </view>
+          <view class="xq-char">{{i.name}}</view>
+          </view>
+      </view>
+      <view class="zhanwei"></view>
+    </scroll-view>
+
+    <view class="divide">- 特别专辑《DIRECTOR'S CUT》 -</view>
+    <view class="aitems">
+      <view class="fengmian">
+        <image class="fm-img" src='{{tbzfm}}' data-src='{{tbzfm}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing">
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{tbzxk}}' data-src='{{tbzxk}}' bindtap="previewImage"></image>
+          </view>
+        <view class="xq-char">专辑小卡</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="divide">- 迷你五辑《YOU MAKE MY DAY》 -</view>
+    <view class="aitems">
+      <view class="fengmian">
+        <image class="fm-img" src='{{mn5fm1}}' data-src='{{mn5fm1}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing"  wx:for="{{mn5_1}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn5_1"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+    </view>
+    <view class="aitems" style='margin-top: 20rpx'>
+      <view class="fengmian">
+        <image class="fm-img" src='{{mn5fm2}}' data-src='{{mn5fm2}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing"  wx:for="{{mn5_2}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn5_2"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+    </view>
+    <view class="aitems" style='margin-top: 20rpx'>
+      <view class="fengmian">
+        <image class="fm-img" src='{{mn5fm3}}' data-src='{{mn5fm3}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing"  wx:for="{{mn5_3}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn5_3"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="divide">- 迷你六辑《YOU MADE MY DAWN》 -</view>
+    <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+      <view class="fengmian">
+        <image class="fm-img" src='{{mn6fm1}}' data-src='{{mn6fm1}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing" wx:for="{{mn6_1}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn6_1"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+      <view class="zhanwei"></view>
+    </scroll-view>
+
+    <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;margin-top: 20rpx">
+      <view class="fengmian">
+        <image class="fm-img" src='{{mn6fm2}}' data-src='{{mn6fm2}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing" wx:for="{{mn6_2}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn6_2"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+      <view class="zhanwei"></view>
+    </scroll-view>
+
+    <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;margin-top: 20rpx">
+      <view class="fengmian">
+        <image class="fm-img" src='{{mn6fm3}}' data-src='{{mn6fm3}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing" wx:for="{{mn6_3}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn6_3"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+      <view class="zhanwei"></view>
+    </scroll-view>
+
+    <view class="divide">- 正规三辑《An Ode》 -</view>
+    <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+      <view class="fengmian">
+        <image class="fm-img" src='{{zg3fm1}}' data-src='{{zg3fm1}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing" wx:for="{{zg3_1}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_zg3_1"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+      <view class="zhanwei"></view>
+    </scroll-view>
+    <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;margin-top: 20rpx">
+      <view class="fengmian">
+        <image class="fm-img" src='{{zg3fm2}}' data-src='{{zg3fm2}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing" wx:for="{{zg3_2}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_zg3_2"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+      <view class="zhanwei"></view>
+    <!-- </view> -->
+    </scroll-view>
+    <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;margin-top: 20rpx">
+      <view class="fengmian">
+        <image class="fm-img" src='{{zg3fm3}}' data-src='{{zg3fm3}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing" wx:for="{{zg3_3}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_zg3_3"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+      <view class="zhanwei"></view>
+    <!-- </view> -->
+    </scroll-view>
+    <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;margin-top: 20rpx">
+      <view class="fengmian">
+        <image class="fm-img" src='{{zg3fm4}}' data-src='{{zg3fm4}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing" wx:for="{{zg3_4}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_zg3_4"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+      <view class="zhanwei"></view>
+    <!-- </view> -->
+    </scroll-view>
+    <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;margin-top: 20rpx">
+      <view class="fengmian">
+        <image class="fm-img" src='{{zg3fm5}}' data-src='{{zg3fm5}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing" wx:for="{{zg3_5}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_zg3_5"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+      <view class="zhanwei"></view>
+    <!-- </view> -->
+    </scroll-view>
+
+    <view class="divide">- 迷你七辑《Heng:garæ》 -</view>
+    <view class="aitems">
+      <view class="fengmian">
+        <image class="fm-img" src='{{mn7fm1}}' data-src='{{mn7fm1}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing"  wx:for="{{mn7_1}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn7_1"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+    </view>
+    <view class="aitems" style='margin-top: 20rpx'>
+      <view class="fengmian">
+        <image class="fm-img" src='{{mn7fm2}}' data-src='{{mn7fm2}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing"  wx:for="{{mn7_2}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn7_2"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+    </view>
+    <view class="aitems" style='margin-top: 20rpx'>
+      <view class="fengmian">
+        <image class="fm-img" src='{{mn7fm3}}' data-src='{{mn7fm3}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing"  wx:for="{{mn7_3}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn7_3"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+    </view>
+    <view class="aitems" style='margin-top: 20rpx'>
+      <view class="fengmian">
+        <image class="fm-img" src='{{mn7fm4}}' data-src='{{mn7fm4}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing"  wx:for="{{mn7_4}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn7_4"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="divide">- 特别专辑《Semicolon》 -</view>
+    <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+      <view class="fengmian">
+        <image class="fm-img" src='{{tb2fm}}' data-src='{{tb2fm}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing" wx:for="{{tb2}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_tb2"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+      <view class="zhanwei"></view>
+    </scroll-view>
+
+    <view class="divide">- 迷你八辑《Your Choice》 -</view>
+    <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+      <view class="fengmian">
+        <image class="fm-img" src='{{mn8fm1}}' data-src='{{mn8fm1}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing" wx:for="{{mn8_1}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn8_1"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+      <view class="zhanwei"></view>
+    </scroll-view>
+    <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;margin-top: 20rpx">
+      <view class="fengmian">
+        <image class="fm-img" src='{{mn8fm2}}' data-src='{{mn8fm2}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing" wx:for="{{mn8_2}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn8_2"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+      <view class="zhanwei"></view>
+    <!-- </view> -->
+    </scroll-view>
+    <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;margin-top: 20rpx">
+      <view class="fengmian">
+        <image class="fm-img" src='{{mn8fm3}}' data-src='{{mn8fm3}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing" wx:for="{{mn8_3}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn8_3"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+      <view class="zhanwei"></view>
+    <!-- </view> -->
+    </scroll-view>
+   
+  </view>
+
+  <view class="tab2" wx:if="{{currentIndex==1}}">
+    <view class="divide firstitem">- 迷你专辑《WE MAKE YOU》 -</view>
+    <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+      <view class="fengmian">
+        <image class="fm-img" src='{{wmyfm}}' data-src='{{wmyfm}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing" wx:for="{{wmy}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_wmy"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+      <view class="zhanwei"></view>
+    </scroll-view>
+
+    <view class="divide">- 单曲《Happy Ending》 -</view>
+    <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+      <view class="fengmian">
+        <image class="fm-img" src='{{hefm}}' data-src='{{hefm}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing" wx:for="{{he}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_he"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+      <view class="zhanwei"></view>
+    </scroll-view>
+
+    <view class="divide">- 单曲《Fallin' Flower》 -</view>
+    <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+      <view class="fengmian">
+        <image class="fm-img" src='{{fffm}}' data-src='{{fffm}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing" wx:for="{{ff}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_ff"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+      <view class="zhanwei"></view>
+    </scroll-view>
+
+    <view class="divide">- 迷你专辑《24H》 -</view>
+    <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+      <view class="fengmian">
+        <image class="fm-img" src='{{hfm}}' data-src='{{hfm}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing" wx:for="{{h24}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_h24"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+      <view class="zhanwei"></view>
+    </scroll-view>
+
+    <view class="divide">- 单曲《Not Alone》 -</view>
+    <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+      <view class="fengmian">
+        <image class="fm-img" src='{{gdfm}}' data-src='{{gdfm}}' bindtap="previewImage"></image>
+      </view>
+      <view class="xiangqing" wx:for="{{gd}}" wx:for-item="i" wx:key='unique'>
+        <view class="xq-con">
+          <view class="xq-img">
+            <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_gd"></image>
+          </view>
+        <view class="xq-char">{{i.name}}</view>
+        </view>
+      </view>
+      <view class="zhanwei"></view>
+    </scroll-view>
+  </view>
+
+  <view class="tab3" wx:if="{{currentIndex==2}}">
+    <view class="list">
+
+      <view class="item item4" wx:for="{{sjk}}" wx:for-item="i" wx:key='unique'>
+        <view class="img-container">
+          <image mode="widthFix" src='{{i.url}}' bindtap='previewImage_sjk' data-src="{{i.url}}"></image>
+        </view>
+        <view class="item-name">{{i.name}}</view>
+      </view>
+
+    </view>
+  </view>
+    
+  <view class="tab4" wx:if="{{currentIndex==3}}">
+    <view class="list">
+
+      <view class="item item3" wx:for="{{qt}}" wx:for-item="i" wx:key='unique'>
+        <view class="img-container">
+          <image mode="widthFix" src='{{i.url}}' bindtap='previewImage_qt' data-src="{{i.url}}"></image>
+        </view>
+        <view class="item-name">{{i.name}}</view>
+      </view>
+
+    </view>
+  </view>
+
+</view>
+
+<view class="footer">
+  <text>- @OreoIceCream_17资源整理博 -</text>
+</view>

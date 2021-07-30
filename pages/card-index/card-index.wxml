@@ -1,0 +1,125 @@
+<!-- <view class="container"> -->
+
+  <view class="title">
+    <text>按成员查看</text>
+  </view>
+
+  <view class="item-list-95 item-list">
+    
+    <view class="aitem mem1">
+      <image src="{{mem1.url}}"></image>
+      <!-- <view class="item-name">{{mem1.name}}</view> -->
+    </view>
+
+    <view class="aitem mem2">
+      <image src="{{mem2.url}}"></image>
+      <!-- <view class="item-name">{{mem2.name}}</view> -->
+    </view>
+
+    <view class="aitem mem3">
+      <image src="{{mem1.url}}"></image>
+      <!-- <view class="item-name">{{mem1.name}}</view> -->
+    </view>
+
+  </view>
+
+  <view class="item-list-96 item-list">
+    
+    <view class="aitem mem4">
+      <image src="{{mem1.url}}"></image>
+      <!-- <view class="item-name">{{mem1.name}}</view> -->
+    </view>
+
+    <view class="aitem mem5">
+      <image src="{{mem2.url}}"></image>
+      <!-- <view class="item-name">{{mem2.name}}</view> -->
+    </view>
+
+    <view class="aitem mem6">
+      <image src="{{mem1.url}}"></image>
+      <!-- <view class="item-name">{{mem1.name}}</view> -->
+    </view>
+
+    <view class="aitem mem7">
+      <image src="{{mem2.url}}"></image>
+      <!-- <view class="item-name">{{mem2.name}}</view> -->
+    </view>
+
+  </view>
+
+  <view class="item-list-97 item-list">
+    
+    <view class="aitem mem8">
+      <image src="{{mem1.url}}"></image>
+      <!-- <view class="item-name">{{mem1.name}}</view> -->
+    </view>
+
+    <view class="aitem mem9">
+      <image src="{{mem2.url}}"></image>
+      <!-- <view class="item-name">{{mem2.name}}</view> -->
+    </view>
+
+    <view class="aitem mem10">
+      <image src="{{mem1.url}}"></image>
+      <!-- <view class="item-name">{{mem1.name}}</view> -->
+    </view>
+
+  </view>
+
+  <view class="item-list-98 item-list">
+    
+    <view class="aitem mem11">
+      <image src="{{mem1.url}}"></image>
+      <!-- <view class="item-name">{{mem1.name}}</view> -->
+    </view>
+
+    <view class="aitem mem12">
+      <image src="{{mem2.url}}"></image>
+      <!-- <view class="item-name">{{mem2.name}}</view> -->
+    </view>
+
+  </view>
+
+  <view class="item-list-99 item-list">
+    
+    <view class="aitem mem13">
+      <image src="{{mem1.url}}"></image>
+      <!-- <view class="item-name">{{mem1.name}}</view> -->
+    </view>
+
+  </view>
+
+  <view class="title title2">
+    <text>按时期查看</text>
+  </view>
+
+  <view class="hz-items">
+    <view class="sq-item-title">韩专</view>
+    <view class="sq-item" wx:for="{{shiqi}}" wx:key="index" bindtap="goto_tmp">
+      <view class="left-clm">
+        <image src="{{item.url}}"></image>
+      </view>
+      <view class="right-clm">
+        <view class="item-name">{{item.name}}</view>
+        <view class="item-comment">{{item.comment}}</view>
+        <view class="item-time">{{item.time}}</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="rz-items">
+    <view class="sq-item-title">日专</view>
+    
+  </view>
+
+  <view class="ych-items">
+    <view class="sq-item-title">演唱会</view>
+  </view>
+
+  <view class="kld-items">
+    <view class="sq-item-title">克拉岛</view>
+  </view>
+
+
+
+<!-- </view> -->

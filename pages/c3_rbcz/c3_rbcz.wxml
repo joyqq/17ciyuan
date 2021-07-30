@@ -1,0 +1,87 @@
+<view class="big-body">
+  <!-- <view class="a"></view> -->
+  <view class="title-bar">
+    <image src="{{img0}}"></image>
+  </view>
+
+  <view class="one-item">
+
+    <image src="{{img1}}" style="width: 750rpx; height: 100rpx"></image>
+
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        <view class="xiangqing" wx:for="{{cz1617}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="{{i.disp}}" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_cz1617"></image>
+            </view>
+          <view class="xq-char" style="font-size: {{i.size}}">{{i.name}}</view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+
+
+  <view class="one-item">
+    <image src="{{img2}}" style="width: 750rpx; height: 100rpx"></image>
+    
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        <view class="xiangqing" wx:for="{{cz18}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="{{i.disp}}" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_cz18"></image>
+            </view>
+          <view class="xq-char" style="font-size: {{i.size}}">{{i.name}}</view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+
+  </view>
+
+
+  <view class="one-item">
+    <image src="{{img3}}" style="width: 750rpx; height: 100rpx"></image>
+    
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        <view class="xiangqing" wx:for="{{cz19}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="{{i.disp}}" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_cz19"></image>
+            </view>
+          <view class="xq-char" style="font-size: {{i.size}}">{{i.name}}</view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+
+  </view>
+
+
+  <view class="one-item">
+    <image src="{{img4}}" style="width: 750rpx; height: 100rpx"></image>
+    
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        <view class="xiangqing" wx:for="{{cz2021}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="{{i.disp}}" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_cz2021"></image>
+            </view>
+          <view class="xq-char" style="font-size: {{i.size}}">{{i.name}}</view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+
+  </view>
+
+
+</view>
+
+<view class="footer">
+  <text>- @OreoIceCream_17资源整理博 -</text>
+</view>

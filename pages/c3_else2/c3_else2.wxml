@@ -1,0 +1,79 @@
+<view class="title-bar">
+    <image src="{{img0}}"></image>
+  </view>
+
+<view class='title'>
+  <view class='titleSel1' bindtap='titleClick' data-idx='0'>
+    <text>SPECIAL配置</text>
+    <hr class="{{0 == currentIndex ? 'headerLineSel1' : 'headerLineUnsel'}}" />
+  </view>
+    
+  <view class='titleSel2' bindtap='titleClick' data-idx='1'>
+    <text>日历配置</text>
+    <hr class="{{1 == currentIndex ? 'headerLineSel2' : 'headerLineUnsel'}} " />
+  </view>
+
+  <view class='titleSel3' bindtap='titleClick' data-idx='2'>
+    <text>杂志配置</text>
+    <hr class="{{2 == currentIndex ? 'headerLineSel3' : 'headerLineUnsel'}} " />
+  </view>
+
+  <view class='titleSel4' bindtap='titleClick' data-idx='3'>
+    <text>平台卡</text>
+    <hr class="{{3 == currentIndex ? 'headerLineSel4' : 'headerLineUnsel'}} " />
+  </view>
+</view>
+ 
+<!--内容布局-->
+<view class="tabs">
+  
+
+  <view class="tab1" wx:if="{{currentIndex==0}}">
+    <view class="santu-sum">
+      <view class="santu-item" wx:for="{{santu}}" wx:for-item="i" wx:key="unique">
+        <view class="img-container">
+          <image src="{{i.url}}" data-src='{{i.url}}' mode="{{i.disp}}" bindtap="previewImage_santu"></image>
+        </view>
+        <view class="santu-char" style="font-size: {{i.fsize}}rpx"><text>{{i.name}}</text></view>
+      </view>
+    </view>
+  </view>
+
+  <view class="tab2" wx:if="{{currentIndex==1}}">
+    <view class="santu-sum">
+      <view class="santu-item" wx:for="{{santu2}}" wx:for-item="i" wx:key="unique">
+        <view class="img-container">
+          <image src="{{i.url}}" data-src='{{i.url}}' mode="{{i.disp}}" bindtap="previewImage_santu2"></image>
+        </view>
+        <view class="santu-char" style="font-size: {{i.fsize}}rpx"><text>{{i.name}}</text></view>
+      </view>
+    </view>
+  </view>
+
+  <view class="tab3" wx:if="{{currentIndex==2}}">
+    <view class="santu-sum">
+      <view class="santu-item" wx:for="{{zazhi}}" wx:for-item="i" wx:key="unique">
+        <view class="img-container">
+          <image src="{{i.url}}" data-src='{{i.url}}' mode="{{i.disp}}" bindtap="previewImage_zazhi"></image>
+        </view>
+        <view class="santu-char" style="font-size: {{i.fsize}}rpx"><text>{{i.name}}</text></view>
+      </view>
+    </view>
+  </view>  
+
+  <view class="tab4" wx:if="{{currentIndex==3}}">
+    <view class="santu-sum">
+      <view class="santu-item" wx:for="{{santu3}}" wx:for-item="i" wx:key="unique">
+        <view class="img-container">
+          <image src="{{i.url}}" data-src='{{i.url}}' mode="{{i.disp}}" bindtap="previewImage_santu3"></image>
+        </view>
+        <view class="santu-char" style="font-size: {{i.fsize}}rpx"><text>{{i.name}}</text></view>
+      </view>
+    </view>
+  </view>   
+
+</view>
+
+<view class="footer">
+  <text>- @OreoIceCream_17资源整理博 -</text>
+</view>

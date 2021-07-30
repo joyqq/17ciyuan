@@ -1,0 +1,18 @@
+<view class="title-bar">
+    <image src="{{img0}}"></image>
+  </view>
+
+<view class='mainbody'>
+
+  <view class='aitem' wx:for="{{zjpz_item}}" wx:for-item="i" wx:key="unique">
+    <view class='img-container'>
+      <image src='{{i.url}}' data-src='{{i.url}}' mode='widthFix' bindtap='previewImage_items'></image>
+    </view>
+    <view class='iname'><text>{{i.name}}</text></view>
+  </view>
+
+</view>
+
+<view class='footer'>
+  <text>- @OreoIceCream_17资源整理博 -</text>
+</view>

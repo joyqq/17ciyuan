@@ -1,0 +1,2118 @@
+<view class="title-bar">
+  <image src="{{img0}}"></image>
+</view>
+
+<!-- choice-0 -->
+<view class="big-con">
+  <view class="div-img">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1grcahev049j30q403174b.jpg"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{choice_4}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_choice_4"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">专辑封面</view>
+          </view>
+        </view>
+        
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{choice_2}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_choice_2"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">团体预告</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{choice_3}}" data-src="{{choice_3}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">收录曲</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{choice_bz}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_choice_bz"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">MV壁纸</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{choice_1}}" data-src="{{choice_1}}" mode="widthFix" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">回归日程表</view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+<!-- choice-1 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{choicedr1}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="{{i.mo}}" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_choicedr1"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- choice-2 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{choicedr2}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="{{i.mo}}" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_choicedr2"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- choice-3 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{choicedr3}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="{{i.mo}}" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_choicedr3"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- choice-4 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{choicedr4}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="{{i.mo}}" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_choicedr4"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- choice-5 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{choicedr5}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="{{i.mo}}" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_choicedr5"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- na-1 -->
+<view class="big-con">
+  <view class="div-img">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqtxfqbqb7j30q4031dg9.jpg"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{na_1}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_na_1"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">专辑封面</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{na_2}}" data-src="{{na_2}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">团体预告</view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+<!-- na_dr -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{na_dr}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_na_dr"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- tb2-1 -->
+<view class="big-con">
+  <view class="div-img">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqtxgemr0cj30q40313yx.jpg"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{tb2_1}}" data-src="{{tb2_1}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">专辑封面</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{tb2_2}}" data-src="{{tb2_2}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">收录曲</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{tb2_3}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_tb2_3"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">团体预告</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{tb2_4}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_tb2_4"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">MV壁纸</view>
+          </view>
+        </view>
+<!-- 
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{zg3_5}}" data-src="{{zg3_5}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">回归日程表</view>
+          </view>
+        </view> -->
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+<!-- tb2-dr-1 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{tb2_dr_1}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_tb2_dr_1"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- tb2-dr-2 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{tb2_dr_2}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_tb2_dr_2"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- h24-1 -->
+<view class="big-con">
+  <view class="div-img">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqkpeqbh94j30q403174n.jpg"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{h24_1}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_h24_1"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">专辑封面</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{h24_2}}" data-src="{{h24_2}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">团体预告</view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+<!-- h24_dr -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{h24_dr}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_h24_dr"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- mini7-1 -->
+<view class="big-con">
+  <view class="div-img">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqkpeq05xoj30q40313yw.jpg"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{mini7_1}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_mini7_1"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">专辑封面</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{mini7_2}}" data-src="{{mini7_2}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">收录曲</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{mini7_3}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_mini7_3"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">团体预告</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{mini7_4}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_mini7_4"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">MV壁纸</view>
+          </view>
+        </view>
+<!-- 
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{zg3_5}}" data-src="{{zg3_5}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">回归日程表</view>
+          </view>
+        </view> -->
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+<!-- mn7-dr-1 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{mn7_dr_1}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn7_dr_1"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- mn7-dr-2 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{mn7_dr_2}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn7_dr_2"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- mn7-dr-3 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{mn7_dr_3}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn7_dr_3"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- mn7-dr-4 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{mn7_dr_4}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn7_dr_4"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- ff-1 -->
+<view class="big-con">
+  <view class="div-img">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqkpeyatv7j30q4031jrs.jpg"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{ff_1}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_ff_1"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">专辑封面</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{ff_2}}" data-src="{{ff_2}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">团体预告</view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+<!-- ff_dr -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{ff_dr}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_ff_dr"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- zg3-1 -->
+<view class="big-con">
+  <view class="div-img">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqssyk9qhqj30q4031jrp.jpg"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{zg3_1}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_zg3_1"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">专辑封面</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{zg3_2}}" data-src="{{zg3_2}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">收录曲</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{zg3_3}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_zg3_3"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">团体预告</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{zg3_4}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_zg3_4"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">MV壁纸</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{zg3_5}}" data-src="{{zg3_5}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">回归日程表</view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+<!-- zg3-dr-1 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{zg3_dr_1}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_zg3_dr_1"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- zg3-dr-2 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{zg3_dr_2}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_zg3_dr_2"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- zg3-dr-3 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{zg3_dr_3}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_zg3_dr_3"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- zg3-dr-4 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{zg3_dr_4}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_zg3_dr_4"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- zg3-dr-5 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{zg3_dr_5}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_zg3_dr_5"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- he-1 -->
+<view class="big-con">
+  <view class="div-img">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqkpey2wadj30q403174p.jpg"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{he_1}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_he_1"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">专辑封面</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{he_2}}" data-src="{{he_2}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">团体预告</view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+<!-- he_dr -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{he_dr}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="{{i.disp}}" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_he_dr"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- mn6-1 -->
+<view class="big-con">
+  <view class="div-img">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqkpep6myoj30q403174v.jpg" style="width: 712rpx; height: 84rpx"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{mn6_1}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_mn6_1"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">专辑封面</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{mn6_2}}" data-src="{{mn6_2}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">收录曲</view>
+          </view>
+        </view>
+
+        <!-- <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{mn5_3}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_mn5_3"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">团体预告</view>
+          </view>
+        </view> -->
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{mn6_3_1}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_mn6_3_1"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">MV壁纸</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{mn6_4}}" data-src="{{mn6_4}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">回归日程表</view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+<!-- mn6-2 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{mn6_5}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn6_5"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- mn6-3 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{mn6_6}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn6_6"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- mn6-4 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{mn6_7}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn6_7"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- mn5-1 -->
+<view class="big-con">
+  <view class="div-img">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqkpeog350j30q4031aam.jpg"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{mn5_1}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_mn5_1"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">专辑封面</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{mn5_2}}" data-src="{{mn5_2}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">收录曲</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{mn5_3}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_mn5_3"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">团体预告</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{mn5_3_1}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_mn5_3_1"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">MV壁纸</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{mn5_4}}" data-src="{{mn5_4}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">回归日程表</view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+<!-- mn5-2 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{mn5_5}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn5_5"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- mn5-3 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{mn5_6}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn5_6"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- mn5-4 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{mn5_7}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn5_7"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- wmy-1 -->
+<view class="big-con">
+  <view class="div-img">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqssykg825j30q40313z2.jpg"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{wmy_1}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_wmy_1"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">专辑封面</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{wmy_2}}" data-src="{{wmy_2}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">团体预告</view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+<!-- wmy_dr -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{wmy_dr}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_wmy_dr"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+  
+</view>
+
+<!-- sm2-1 -->
+<view class="big-con">
+  <view class="div-img">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqkpeocu72j30q4031gm0.jpg"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{sm2_1}}" data-src="{{sm2_1}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">专辑封面</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{sm2_2}}" data-src="{{sm2_2}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">团体预告</view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+<!-- sm2-2 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{sm2_3}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_sm2_3"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+    <!-- <view class="bchar">个人Teaser</view> -->
+  </view>
+  
+</view>
+
+<!-- tbz-1 -->
+<view class="big-con">
+  <view class="div-img">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqkpeo9gtyj30q4031wez.jpg"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{tbz_1}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_tbz_1"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">专辑封面</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{tbz_2}}" data-src="{{tbz_2}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">收录曲</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{tbz_3}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_tbz_3"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">团体预告</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{tbz_4}}" data-src="{{tbz_4}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">回归日程表</view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+<!-- tbz-2 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{tbz_5}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_tbz_5"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+    <!-- <view class="bchar">个人Teaser</view> -->
+  </view>
+  
+</view>
+
+<!-- zg2-1 -->
+<view class="big-con">
+  <view class="div-img">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqkpeo1539j30q40310t4.jpg"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{zg2_1}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_zg2_1"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">专辑封面</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{zg2_2}}" data-src="{{zg2_2}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">收录曲</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{zg2_3}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_zg2_3"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">团体预告</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{zg2_4}}" data-src="{{zg2_4}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">回归日程表</view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+<!-- zg2-2 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{zg2_5}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_zg2_5"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+    <!-- <view class="bchar">个人Teaser</view> -->
+  </view>
+  
+</view>
+
+<!-- zg2-3 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{zg2_6}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_zg2_6"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+    <!-- <view class="bchar">个人Teaser</view> -->
+  </view>
+  
+</view>
+
+<!-- mini4-1 -->
+<view class="big-con">
+  <view class="div-img">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqkpeny5moj30q4031t8z.jpg"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{mn4_1}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="widthFix" bindtap="previewImage_mn4_1"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">专辑封面</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{mn4_2}}" data-src="{{mn4_2}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">收录曲</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{mn4_3}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_mn4_3"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">团体预告</view>
+          </view>
+        </view>
+
+        
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+<!-- mini4-2 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{mn4_4}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn4_4"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+    <!-- <view class="bchar">个人Teaser</view> -->
+  </view>
+  
+</view>
+
+<!-- mini3-1 -->
+<view class="big-con">
+  <view class="div-img">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqkpensgidj30q4031mxm.jpg"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{mn3_1}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="widthFix" bindtap="previewImage_mn3_1"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">专辑封面</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{mn3_2}}" data-src="{{mn3_2}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">收录曲</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{mn3_3}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_mn3_3"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">团体预告</view>
+          </view>
+        </view>
+
+        
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+<!-- mini3-2 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{mn3_4}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn3_4"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+    <!-- <view class="bchar">个人Teaser</view> -->
+  </view>
+  
+</view>
+
+<!-- mini3-2-2 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{mn3_4_2}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn3_4_2"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+    <!-- <view class="bchar">个人Teaser</view> -->
+  </view>
+  
+</view>
+
+<!-- mini3-3 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{mn3_5}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn3_5"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+    <!-- <view class="bchar">个人Teaser</view> -->
+  </view>
+  
+</view>
+
+<!-- 正规1-1 -->
+<view class="big-con">
+  <view class="div-img">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqkpemqacej30q40310t4.jpg"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{i2_1}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_i2_1"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">专辑封面</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{i2_2}}" data-src="{{i2_2}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">收录曲</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{i2_3}}" data-src="{{i2_3}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">团体预告</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{i2_4}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_i2_4"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">回归日程表</view>
+          </view>
+        </view>
+        
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+<!-- 正规1-2 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{i2_5}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="{{i.disp}}" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_i2_5"></image>
+            </view>
+          <!-- <view class="xq-char">{{i.name}}</view> -->
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+    <!-- <view class="bchar">个人Teaser</view> -->
+  </view>
+  
+</view>
+
+<!-- 正规1后续-1 -->
+<view class="big-con">
+  <view class="div-img">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqpbekao3aj30q4031gm3.jpg"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{zg1_1}}" data-src="{{zg1_1}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">专辑封面</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{zg1_2}}" data-src="{{zg1_2}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">收录曲</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{zg1_3}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_zg1_3"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">团体预告</view>
+          </view>
+        </view>
+        
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+<!-- 正规1后续-2 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{zg1_4}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="{{i.disp}}" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_zg1_4"></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+    <!-- <view class="bchar">个人Teaser</view> -->
+  </view>
+  
+</view>
+
+<!-- 数码1 -->
+<view class="big-con">
+  <view class="div-img">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqkpem7ek1j30q4031glx.jpg"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{sm1}}" data-src="{{sm1}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">专辑封面</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{sm2}}" data-src="{{sm2}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">Teaser</view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+<!-- mini2 -->
+<view class="big-con">
+  <view class="div-img">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqkpemk162j30q4031dgi.jpg"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{mn2_1}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="aspectFill" bindtap="previewImage_mn2_1"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">专辑封面</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{mn2_2}}" data-src="{{mn2_2}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">收录曲</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{mn2_3}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="{{i.mo}}" bindtap="previewImage_mn2_3"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+            </view>
+          <view class="xq-char">团体预告</view>
+          </view>
+        </view>
+        
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+<!-- mini2-2 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{mn2_dr}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mn2_dr" ></image>
+            </view>
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+    <!-- <view class="bchar">个人Teaser</view> -->
+  </view>
+  
+</view>
+
+
+<!-- mini1 -->
+<view class="big-con">
+  <view class="div-img">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqkpem3dp3j30q4031wf5.jpg"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{i1_2}}" data-src="{{i1_2}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">专辑封面</view>
+          </view>
+        </view>
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{i1_3}}" data-src="{{i1_3}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <view class="xq-char">收录曲</view>
+          </view>
+        </view>
+
+
+        <view class="xiangqing">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+                  <swiper-item wx:for="{{i1_1}}" wx:for-item='i' wx:key='unique'>
+                    <image src="{{i.url}}" data-src="{{i.url}}" mode="{{i.modea}}" bindtap="previewImage_i1_1"></image>
+                  </swiper-item>
+                </swiper>
+              </view>
+              <!-- <image mode="widthFix" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_i1"></image> -->
+            </view>
+          <view class="xq-char">团体预告</view>
+          </view>
+        </view>
+        
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+<!-- mini1-2 -->
+<view class="big-con">
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar" wx:for="{{mini1}}" wx:for-item="i" wx:key='unique'>
+          <view class="xq-con">
+            <view class="xq-img">
+              <image mode="aspectFill" src='{{i.url}}' data-src='{{i.url}}' bindtap="previewImage_mini1"></image>
+            </view>
+          <!-- <view class="xq-char">{{i.name}}</view> -->
+          </view>
+        </view>
+        
+      </scroll-view>
+    </view>
+    <!-- <view class="bchar">个人Teaser</view> -->
+  </view>
+  
+</view>
+
+
+
+
+<!-- 出道前 -->
+<view class="big-con">
+  <view class="div-img div-img-first">
+    <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqkpely9fhj30q403174i.jpg"></image>
+  </view>
+  <view class="items-con">
+    <view class="scroll-wrap">
+      <scroll-view scroll-x='{{true}}' style="width: 100%; white-space: nowrap;">
+        
+        <view class="xiangqing xiangqing-nochar">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{i0_1}}" data-src="{{i0_1}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <!-- <view class="xq-char">专辑封面</view> -->
+          </view>
+        </view>
+
+        <view class="xiangqing xiangqing-nochar">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{i0_2}}" data-src="{{i0_2}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <!-- <view class="xq-char">专辑封面</view> -->
+          </view>
+        </view>
+
+        <view class="xiangqing xiangqing-nochar">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{i0_3}}" data-src="{{i0_3}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          <!-- <view class="xq-char">专辑封面</view> -->
+          </view>
+        </view>
+
+        <!-- <view class="xiangqing xiangqing-nochar">
+          <view class="xq-con">
+            <view class="xq-img">
+              <view class="oneitem">
+                <image src="{{i0_4}}" data-src="{{i0_4}}" mode="aspectFill" bindtap="previewImage"></image>
+              </view>
+            </view>
+          </view>
+        </view> -->
+        
+      </scroll-view>
+    </view>
+  </view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<view class="footer">
+  <text>- @OreoIceCream_17资源整理博 -</text>
+</view>

@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/card2/card2",
+    "pages/c3_con/c3_con",
+    "pages/c3_else2/c3_else2",
+    "pages/c3_hgxg/c3_hgxg",
+    "pages/c3_hykld/c3_hykld",
+    "pages/card3/card3",
+    "pages/c3_rbzb/c3_rbzb",
+    "pages/c3_rbcz/c3_rbcz",
+    "pages/c3_zjpz/c3_zjpz",
+    "pages/cardof00test/cardof00test",
+    "pages/tmp/tmp",
+    "pages/card-index/card-index",
+    "pages/cardof13/cardof13",
+    "pages/cardof12/cardof12",
+    "pages/cardof11/cardof11",
+    "pages/cardof10/cardof10",
+    "pages/cardof09/cardof09",
+    "pages/cardof08/cardof08",
+    "pages/cardof07/cardof07",
+    "pages/cardof06/cardof06",
+    "pages/cardof05/cardof05",
+    "pages/cardof04/cardof04",
+    "pages/cardof03/cardof03",
+    "pages/cardof02/cardof02",
+    "pages/cardof01/cardof01"    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#e8989a",
+    "selectedColor": "#91a8d0",
+    "backgroundColor": "#f7cac9",
+    "list": [
+    {
+      "pagePath": "pages/card2/card2",
+      "text": "小卡",
+      "iconPath": "/icon/1_0.png",
+      "selectedIconPath": "/icon/1_1.png"
+    },
+    {
+      "pagePath": "pages/card3/card3",
+      "text": "配置",
+      "iconPath": "/icon/2_0.png",
+      "selectedIconPath": "/icon/2_1.png"
+    }
+  ]
+ 
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

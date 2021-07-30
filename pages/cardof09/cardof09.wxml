@@ -1,0 +1,62 @@
+<view class='title'>
+  <view class='titleSel1' bindtap='titleClick' data-idx='0'>
+    <text>专辑相关</text>
+    <hr class="{{0 == currentIndex ? 'headerLineSel1' : 'headerLineUnsel'}}" />
+  </view>
+    
+  <view class='titleSel2' bindtap='titleClick' data-idx='1'>
+    <text>随机卡</text>
+    <hr class="{{1 == currentIndex ? 'headerLineSel2' : 'headerLineUnsel'}} " />
+  </view>
+ 
+  <view class='titleSel3' bindtap='titleClick' data-idx='2'>
+    <text>其他卡</text>
+    <hr class="{{2 == currentIndex ? 'headerLineSel3' : 'headerLineUnsel'}} " />
+  </view>
+</view>
+ 
+<!--内容布局-->
+  <view class="tabs">
+    <view class="tab1" wx:if="{{currentIndex==0}}">
+      <view class="list">
+        
+        <view class="item" wx:for="{{zjxg}}" wx:for-item='i' wx:key='unique'>
+          <view class="img-container">
+            <image mode="widthFix" src='{{i.url}}' bindtap='previewImage_zjxg' data-src="{{i.url}}"></image>
+          </view>
+          <view class="item-name"><text>{{i.name}}</text></view>
+        </view>
+        
+      </view>
+    </view>
+
+    <view class="tab2" wx:if="{{currentIndex==1}}">
+      <view class="list">
+
+        <view class="item item2" wx:for="{{sjk}}" wx:for-item='i' wx:key='unique'>
+          <view class="img-container">
+            <image mode="widthFix" src='{{i.url}}' bindtap='previewImage_sjk' data-src="{{i.url}}"></image>
+          </view>
+          <view class="item-name"><text>{{i.name}}</text></view>
+        </view>
+
+      </view>   
+    </view>
+    
+    <view class="tab3" wx:if="{{currentIndex==2}}">
+      <view class="list">
+
+        <view class="item item3" wx:for="{{qtk}}" wx:for-item='i' wx:key='unique'>
+          <view class="img-container">
+            <image mode="widthFix" src='{{i.url}}' bindtap='previewImage_qtk' data-src="{{i.url}}"></image>
+          </view>
+          <view class="item-name">{{i.name}}</view>
+        </view>
+
+      </view>   
+    </view>
+  </view>
+
+<view class="footer">
+  <text>- @OreoIceCream_17资源整理博 -</text>
+</view>

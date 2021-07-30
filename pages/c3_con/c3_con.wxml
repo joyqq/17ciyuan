@@ -1,0 +1,271 @@
+<view class="title-bar">
+    <image src="{{img0}}"></image>
+  </view>
+
+<view class="tab2">
+    <!-- <view class="divide">2016 LIKE SEVENTEEN – Boys Wish</view> -->
+    <!-- <view class="img-divide">
+      <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcUDWmK48reiCyWE7tC7UfGKlGDFtdfEjCeZary7XVvcBAQ03rz.RxHorh7JFAhl7nWP2A5Zs4cmVvJRVCGBbUww!/b&bo=3AXIAAAAAAADFyM!&rf=viewer_4"></image>
+    </view> -->
+    <view class="img-divide2">
+      <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqba9msoqoj315o05kdh0.jpg"></image>
+    </view>
+    <view class="onewrap">
+      <view class="oneitem">
+        <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+          <swiper-item wx:for="{{list2016_1}}" wx:for-item='i' wx:key='unique'>
+            <image src="{{i}}" data-src="{{i}}" mode="widthFix" bindtap="previewImage_list2016_1"></image>
+          </swiper-item>
+        </swiper>
+        <view class="sname">海报</view>
+      </view>
+      <view class="oneitem">
+        <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+          <swiper-item wx:for="{{list2016_2_3}}" wx:for-item='i' wx:key='unique'>
+            <image src="{{i}}" data-src="{{i}}" mode="widthFix" bindtap="previewImage_list2016_2_3"></image>
+          </swiper-item>
+        </swiper>
+        <view class="sname">场周</view>
+      </view>
+      
+    </view>
+   
+
+    <!-- <view class="divide">2016 LIKE SEVENTEEN – Shining Diamonds</view> -->
+    <!-- <view class="img-dividel">
+      <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcX.wO1T*ceZ2wAhqkAjuZ5a3pgP9Dmlass9CsI2PBLjQCJgQWKV.lZrEG5a1O0dzdCui69lrY31ci2KjTUDAfbM!/b&bo=UwfIAAAAAAADF64!&rf=viewer_4"></image>
+    </view> -->
+    <view class="img-divide2">
+      <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqba9mz9ulj315o05k0u7.jpg"></image>
+    </view>
+    <view class="onewrap">
+      <view class="oneitem">
+        <view class="onepic-wrap">
+          <view class="onepic">
+            <image src="{{list2016_2_1}}" data-src="{{list2016_2_1}}" mode="widthFix" bindtap="previewImage"></image>
+          </view>
+        </view>
+        <view class="sname">海报</view>
+      </view>
+      <view class="oneitem">
+        <view class="onepic-wrap">
+          <view class="onepic">
+            <image src="{{list2016_2_2}}" data-src="{{list2016_2_2}}" mode="aspectFill" bindtap="previewImage"></image>
+          </view>
+        </view>
+        <view class="sname">场次表</view>
+      </view>
+      
+      <view class="oneitem">
+        <view class="onepic-wrap">
+          <view class="onepic">
+            <image src="{{list2016_3}}" data-src="{{list2016_3}}" mode="widthFix" bindtap="previewImage"></image>
+          </view>
+        </view>
+        <view class="sname">场周</view>
+      </view>
+      <view class="oneitem">
+        <view class="onepic-wrap">
+          <view class="onepic">
+            <image src="{{list2016_4}}" data-src="{{list2016_4}}" mode="widthFix" bindtap="previewImage"></image>
+          </view>
+        </view>
+        <view class="sname">DVD配置</view>
+      </view>
+      <view class="oneitem">
+        <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+          <swiper-item wx:for="{{list2016_dr}}" wx:for-item='i' wx:key='unique'>
+            <image src="{{i}}" data-src="{{i}}" mode="widthFix" bindtap="previewImage_list2016_dr"></image>
+          </swiper-item>
+        </swiper>
+        <view class="sname">单人预告</view>
+      </view>
+    </view>
+
+
+
+    <!-- <view class="divide">2017 DIAMOND EDGE</view> -->
+    <!-- <view class="img-divide">
+      <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcdoOw6qUKq3.AIzFav6GtS5kHRPxkdCUydzP0jj7TKg.6Qi4aU.xXIdh1NLSViSVcoIHiWRO4JZe09N.xIviOVM!/b&bo=3AXIAAAAAAADFyM!&rf=viewer_4"></image>
+    </view> -->
+    <view class="img-divide2">
+      <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqba9n9zcdj315o05kjs4.jpg"></image>
+    </view>
+    <view class="onewrap">
+      <view class="oneitem">
+        <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+          <swiper-item wx:for="{{list2017_1}}" wx:for-item='i' wx:key='unique'>
+            <image src="{{i}}" data-src="{{i}}" mode="widthFix" bindtap="previewImage_list2017_1"></image>
+          </swiper-item>
+        </swiper>
+        <view class="sname">海报</view>
+      </view>
+      <view class="oneitem">
+        <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+          <swiper-item wx:for="{{list2017_2}}" wx:for-item='i' wx:key='unique'>
+            <image src="{{i}}" data-src="{{i}}" mode="widthFix" bindtap="previewImage_list2017_2"></image>
+          </swiper-item>
+        </swiper>
+        <view class="sname">场次表</view>
+      </view>
+      <view class="oneitem">
+        <view class="onepic-wrap">
+          <view class="onepic">
+            <image src="{{list2017_3}}" data-src="{{list2017_3}}" mode="widthFix" bindtap="previewImage"></image>
+          </view>
+        </view>
+        <view class="sname">场周</view>
+      </view>
+      <view class="oneitem">
+        <view class="onepic-wrap">
+          <view class="onepic">
+
+            <image src="{{list2017_4}}" data-src="{{list2017_4}}" mode="widthFix" bindtap="previewImage"></image>
+          </view>
+        </view>
+        <view class="sname">DVD配置</view>
+      </view>
+    </view>
+   
+    <!-- <view class="divide">2018 IDEAL CUT</view> -->
+    <!-- <view class="img-divide">
+      <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcdoOw6qUKq3.AIzFav6GtS4Nn7gf2Tv5v9Th8jShB5bd5JqPxlhVZTDI5qqEr2eJFBpDkH*9SlC9v7dB5fWPRAU!/b&bo=3AXIAAAAAAADFyM!&rf=viewer_4"></image>
+    </view> -->
+    <view class="img-divide2">
+      <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqba9nf5m3j315o05k74u.jpg"></image>
+    </view>
+    <view class="onewrap">
+      <view class="oneitem">
+        <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+          <swiper-item wx:for="{{list2018_1}}" wx:for-item='i' wx:key='unique'>
+            <image src="{{i}}" data-src="{{i}}" mode="aspectFill" bindtap="previewImage_list2018_1"></image>
+          </swiper-item>
+        </swiper>
+        <view class="sname">海报</view>
+      </view>
+      <view class="oneitem">
+        <view class="onepic-wrap">
+          <view class="onepic">
+            <image src="{{list2018_cc}}" data-src="{{list2018_cc}}" mode="widthFix" bindtap="previewImage"></image>
+          </view>
+        </view>
+        <view class="sname">场次表</view>
+      </view>
+      <view class="oneitem">
+        <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+          <swiper-item wx:for="{{list2018_2}}" wx:for-item='i' wx:key='unique'>
+            <image src="{{i}}" data-src="{{i}}" mode="widthFix" bindtap="previewImage_list2018_2"></image>
+          </swiper-item>
+        </swiper>
+        <view class="sname">场周</view>
+      </view>
+      <view class="oneitem">
+        <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+          <swiper-item wx:for="{{list2018_3}}" wx:for-item='i' wx:key='unique'>
+            <image src="{{i}}" data-src="{{i}}" mode="widthFix" bindtap="previewImage_list2018_3"></image>
+          </swiper-item>
+        </swiper>
+        <view class="sname">DVD配置</view>
+      </view>
+    </view>
+    
+    <!-- <view class="divide">2019 Ode to You</view> -->
+    <!-- <view class="img-divide">
+      <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcVNblvyDU5EuA2a3u2lqu3hJe0DEeosIF0LtVmx6iTX9*HcbUwcHeEUMBjsTN2wY.mkzJvcOaPxkYcvbzU2WYGQ!/b&bo=3AXIAAAAAAADFyM!&rf=viewer_4"></image>
+    </view> -->
+    <view class="img-divide2">
+      <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqba9nlkqwj315o05kq3i.jpg"></image>
+    </view>
+    <view class="onewrap">
+      <view class="oneitem">
+        <view class="onepic">
+          <image src="{{list2019_1}}" data-src="{{list2019_1}}" mode="aspectFill" bindtap="previewImage"></image>
+        </view>
+        <view class="sname">海报</view>
+      </view>
+      <view class="oneitem">
+          <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+            <swiper-item wx:for="{{list2019_2}}" wx:for-item='i' wx:key='unique'>
+              <image src="{{i}}" data-src="{{i}}" mode="widthFix" bindtap="previewImage_list2019_2"></image>
+            </swiper-item>
+          </swiper>
+          <view class="sname">场次表</view>
+      </view>
+      <view class="oneitem">
+          <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+            <swiper-item wx:for="{{list2019_3}}" wx:for-item='i' wx:key='unique'>
+              <image src="{{i}}" data-src="{{i}}" mode="widthFix" bindtap="previewImage_list2019_3"></image>
+            </swiper-item>
+          </swiper>
+          <view class="sname">场周</view>
+      </view>
+      <view class="oneitem">
+          <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+            <swiper-item wx:for="{{list2019_4}}" wx:for-item='i' wx:key='unique'>
+              <image src="{{i}}" data-src="{{i}}" mode="widthFix" bindtap="previewImage_list2019_4"></image>
+            </swiper-item>
+          </swiper>
+          <view class="sname">DVD配置</view>
+      </view>
+
+        <view class="oneitem">
+          <view class="onepic-wrap">
+            <view class="onepic">
+              <image src="{{list2019_5}}" data-src="{{list2019_5}}" mode="widthFix" bindtap="previewImage"></image>
+            </view>
+          </view>
+          <view class="sname">世巡纪念册</view>
+        </view>
+
+    </view>
+    
+    <!-- <view class="divide">2020 IN-COMPLETE</view> -->
+    <!-- <view class="img-divide">
+      <image src="http://m.qpic.cn/psc?/V51tCZuZ4eGYuw1gi1sg0AAI7B2aPXtq/45NBuzDIW489QBoVep5mcVNblvyDU5EuA2a3u2lqu3jaLu6LH*ucowXiPIMCB2q9u84.4*gKJa9jyeQLOKnaPqrwKRxq6aem3TSnvP3yz9s!/b&bo=3AXIAAAAAAADFyM!&rf=viewer_4"></image>
+    </view> -->
+    <view class="img-divide2">
+      <image src="https://wx1.sinaimg.cn/mw2000/008hT4DMly1gqtwcg71t1j315o05kwf2.jpg"></image>
+    </view>
+    <view class="onewrap">
+      <view class="oneitem">
+        <view class="onepic">
+          <image src="{{list2020_1}}" data-src="{{list2020_1}}" mode="aspectFill" bindtap="previewImage"></image>
+        </view>
+        <view class="sname">海报</view>
+      </view>
+      <view class="oneitem">
+        <view class="onepic">
+          <image src="{{list2020_2}}" data-src="{{list2020_2}}" mode="widthFix" bindtap="previewImage"></image>
+        </view>
+        <view class="sname">场周</view>
+      </view>
+      <view class="oneitem">
+          <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+            <swiper-item wx:for="{{list2020_4}}" wx:for-item='i' wx:key='unique'>
+              <image src="{{i}}" data-src="{{i}}" mode="widthFix" bindtap="previewImage_list2020_4"></image>
+            </swiper-item>
+          </swiper>
+          <view class="sname">DVD配置</view>
+      </view>
+      <view class="oneitem">
+        <view class="onepic">
+          <image src="{{list2020_3}}" data-src="{{list2020_3}}" mode="aspectFill" bindtap="previewImage"></image>
+        </view>
+        <view class="sname">团体预告</view>
+      </view>
+      <view class="oneitem">
+        <swiper indicator-dots='true' circular='true' indicator-color='#000' indicator-active-color='#FFF176' autoplay='true'>
+          <swiper-item wx:for="{{list2020_dr}}" wx:for-item='i' wx:key='unique'>
+            <image src="{{i}}" data-src="{{i}}" mode="aspectFill" bindtap="previewImage_list2020_dr"></image>
+          </swiper-item>
+        </swiper>
+        <view class="sname">单人预告</view>
+      </view>
+      
+    </view>
+    
+  </view>
+
+<view class="footer">
+  <text>- @OreoIceCream_17资源整理博 -</text>
+</view>
