@@ -1,5 +1,0 @@
-<!-- <image src="{{item}}" data-list="{{imgArr}}" mode="widthFix" bindtap="previewImage"></image> -->
-
-<view wx:for="{{imgalist}}" wx:for-item="image" class="previewimg">
-	<image mode="widthFix" src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
-</view>
