@@ -494,6 +494,10 @@ Page({
         url: 'https://wx1.sinaimg.cn/mw2000/008hT4DMly1gsq49cyq9lj30u01hcwxk.jpg',
         name: 'HARE'
       },
+      {
+        url: 'https://wx1.sinaimg.cn/mw2000/008hT4DMly1gt2rmwpm58j30yc1hcgxs.jpg',
+        name: '克拉岛 2021'
+      },
     ],
 
     qt: [

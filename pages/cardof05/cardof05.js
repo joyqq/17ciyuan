@@ -33,7 +33,7 @@ Page({
         name: 'Semicolon\n预售&签售卡'
       },
       {
-        url: 'https://wx1.sinaimg.cn/mw2000/008hT4DMly1gsb47pnzwpj30u01hcdrd.jpg',
+        url: 'https://wx1.sinaimg.cn/mw2000/008hT4DMly1gt2rhh0npmj30u01hc4at.jpg',
         name: 'Your Choice\n预售&签售卡'
       },
       {
@@ -123,6 +123,10 @@ Page({
         url: 'https://wx1.sinaimg.cn/mw2000/008hT4DMly1gsq4ahg92yj30u01hctjs.jpg',
         name: 'HARE'
       },
+      {
+        url: 'https://wx1.sinaimg.cn/mw2000/008hT4DMly1gt2rc55f74j30u01hck1p.jpg',
+        name: '克拉岛 2021'
+      },
     ],
 
     qtk: [
@@ -151,7 +155,7 @@ Page({
         name: '多人卡'
       },
       {
-        url: 'https://wx1.sinaimg.cn/large/008hT4DMly1gpm003a8bpj30u01hctui.jpg',
+        url: 'https://wx1.sinaimg.cn/mw2000/008hT4DMly1gt2r8falgwj30u01hcgu5.jpg',
         name: '场周扇子'
       },
       {
